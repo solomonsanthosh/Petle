@@ -1,0 +1,26 @@
+<app-nav></app-nav>
+
+<h1 class="title">signup!</h1>
+<form class="form" [formGroup] = 'registerForm'>
+  <mat-form-field class="example-full-width">
+    <mat-label>Name</mat-label>
+    <input matInput placeholder="Enter your name" value="" formControlName="name">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Email</mat-label>
+    <input matInput placeholder="Enter your email" value="" formControlName="email">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Password</mat-label>
+    <input matInput placeholder="Enter your Password" value="" formControlName="password">
+  </mat-form-field>
+  <div style="display: flex;width: 100%;align-items: center; justify-content: space-between; ">
+
+   
+    <button mat-raised-button color="primary" (click)="submitForm()">Signup</button>
+    <a routerLink="/login">Already have an account?</a>
+</div>
+
+</form>
+<img src="https://media.istockphoto.com/id/1148309606/photo/animal-footprint-isolated-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=5heka9OI9JoUsr8bt8-BUEBfrYQcAKTm-AjnulVehic=" alt="">

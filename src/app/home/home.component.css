@@ -1,0 +1,30 @@
+.title {
+
+  
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 3.5rem 0rem 1.75rem 0rem;
+    text-align: center;
+    color: rgb(43, 43, 134);
+}
+
+.about {
+    /* padding: 3rem; */
+    width: 70%;
+    font-weight: 500;
+    line-height: 1.75rem;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+img {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    bottom: 0%;
+    width: 20%;
+}

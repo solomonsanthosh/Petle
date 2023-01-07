@@ -1,0 +1,36 @@
+.title {
+    margin:  4rem 0rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.form {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(43, 43, 134);
+}
+
+
+mat-form-field {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+img {
+    position: absolute;
+    opacity: .5;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+}
+
