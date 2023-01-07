@@ -14,6 +14,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { SignupComponent } from './signup/signup.component';
 import { NavComponent } from './nav/nav.component';
 import { AngularFireModule } from '@angular/fire/compat';
+import { BoardComponent } from './board/board.component';
+import { CareComponent } from './care/care.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { AngularFireModule } from '@angular/fire/compat';
     LoginComponent,
     SignupComponent,
     NavComponent,
+    BoardComponent,
+    CareComponent,
   ],
   imports: [
     BrowserModule,
